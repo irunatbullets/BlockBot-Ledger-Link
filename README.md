@@ -1,9 +1,26 @@
-# Fabric Example Mod
+# BlockBot Ledger Link
 
 ## Setup
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+Place BlockBot-Ledger-Link in your mods folder, along with Ledger and BlockBot 2.0 or greater
+
+Create and fill out the config file found at `ledgerblockbotlink.json`
+
+Example config:
+
+```json
+[
+  {
+    "block": "minecraft:diamond_ore",
+    "actions": [
+      "block-break"
+    ]
+  }
+]
+```
+
+You can see a full list of action types on the [actions page](https://quiltservertools.github.io/Ledger/1.0.2/actions/) on the Ledger wiki
 
 ## License
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+Available under the MIT license
