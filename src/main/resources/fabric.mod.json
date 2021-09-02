@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "ledger-blockbot-link",
+  "version": "${version}",
+
+  "name": "Ledger-BlockBot link",
+  "description": "Ledger extension for sending relay messages to BlockBot API compatible mods",
+  "authors": [
+    "yitzy299"
+  ],
+
+  "license": "MIT",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.yitzy299.ledgerblockbotlink.LedgerBlockBotLink::INSTANCE"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16",
+    "blockbot-api": "*",
+    "ledger": "*"
+  }
+}
